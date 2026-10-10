@@ -1,0 +1,37 @@
+{
+  "packets": [
+    {
+      "id": 3,
+      "dir": "от",
+      "name": "тест",
+      "wordtype": "ushort",
+      "fields": [
+        { "name": "CS", "startBit": 4, "stopBit": 11 }
+      ],
+      "groups": [
+        {
+          "name": "группа 1",
+          "fields": [
+            { "name": "CS", "startBit": 4, "stopBit": 11 }
+          ],
+          "groups": [
+            {
+              "name": "группа 1.1",
+              "fields": [
+                { "name": "CS", "startBit": 4, "stopBit": 11 }
+              ],
+              "groups": []
+            },
+            {
+              "name": "группа 1.2",
+              "fields": [
+                { "name": "CS", "startBit": 4, "stopBit": 11 }
+              ],
+              "groups": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
